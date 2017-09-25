@@ -23,3 +23,7 @@
 - `/api/heros/:id/abilities`
 - `/api/abilities`
 - `/api/abilities/:id`
+
+## Known Issues
+- ActiveAdmin doesn't work out of the box because the app was initialized as an API only app, and hence does not have a functional asset pipeline. It would be straightforward to add it in if the app were initialized as a default rails app.
+- Some characters (such as apostrophes) face an encoding issue in the final API render. Possibly a minor issue with the json API gem's integration; the database, however, contains the correct characters, meaning there is no issue with the import of data.
