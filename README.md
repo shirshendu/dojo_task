@@ -3,6 +3,9 @@
 ## Ruby version
 - 2.3.1
 
+## Installation
+- `bundle install`
+
 ## Database creation
 - `bundle exec rake db:create`
 
