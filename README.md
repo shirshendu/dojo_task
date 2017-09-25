@@ -1,20 +1,20 @@
 # README
 
-* Ruby version
+## Ruby version
 2.3.1
 
-* Database creation
+## Database creation
 `bundle exec rake db:create`
 
-* Database initialization
+## Database initialization
 `bundle exec rake db:migrate`
 `bundle exec rake heros:import_all`
 
-* Try it out:
+## Try it out:
 - `bundle exec rails s`
 - The server in development mode is available at `http://localhost:3000/`
 
-- The API endpoints are all under `/api`
+## The API endpoints are all under `/api`
 - `/api/heros`
 - `/api/heros/:id`
 - `/api/heros/:id/abilities`
