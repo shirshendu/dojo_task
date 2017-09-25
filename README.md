@@ -1,14 +1,14 @@
 # README
 
 ## Ruby version
-2.3.1
+- 2.3.1
 
 ## Database creation
-`bundle exec rake db:create`
+- `bundle exec rake db:create`
 
 ## Database initialization
-`bundle exec rake db:migrate`
-`bundle exec rake heros:import_all`
+- `bundle exec rake db:migrate`
+- `bundle exec rake heros:import_all`
 
 ## Try it out:
 - `bundle exec rails s`
